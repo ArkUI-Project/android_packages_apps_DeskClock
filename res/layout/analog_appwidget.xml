@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2008 The Android Open Source Project
+     Copyright (C) 2026 The ArkUI Project (expressive clock face)
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,10 +15,18 @@
      limitations under the License.
 -->
 
-<AnalogClock xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/analog_appwidget"
-    android:dial="@drawable/appwidget_clock_dial"
-    android:hand_hour="@drawable/appwidget_clock_hour"
-    android:hand_minute="@drawable/appwidget_clock_minute"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+    android:layout_height="match_parent"
+    android:background="@drawable/ark_widget_clock_surface"
+    android:clipToOutline="true">
+
+    <AnalogClock
+        android:id="@+id/analog_appwidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dial="@drawable/ark_widget_clock_dial"
+        android:hand_hour="@drawable/ark_widget_clock_hour"
+        android:hand_minute="@drawable/ark_widget_clock_minute" />
+</FrameLayout>

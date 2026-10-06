@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2009 The Android Open Source Project
+     Copyright (C) 2026 The ArkUI Project (live clock preview)
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,6 +21,6 @@
     android:minResizeHeight="55dp"
     android:minResizeWidth="55dp"
     android:minWidth="@dimen/min_analog_widget_size"
-    android:previewImage="@drawable/appwidget_analog_clock_preview"
+    android:previewLayout="@layout/analog_appwidget"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-FileCopyrightText: 2026 The ArkUI Project
+     SPDX-License-Identifier: Apache-2.0 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp" android:height="240dp"
+    android:viewportWidth="240" android:viewportHeight="240">
+    <path android:strokeColor="@color/ark_widget_clock_tick" android:strokeAlpha="0.55"
+        android:strokeWidth="1.8" android:strokeLineCap="round"
+        android:pathData="M120,34 L120,44 M163,45.5 L158,54.2 M194.5,77 L185.8,82 M206,120 L196,120 M194.5,163 L185.8,158 M163,194.5 L158,185.8 M120,206 L120,196 M77,194.5 L82,185.8 M45.5,163 L54.2,158 M34,120 L44,120 M45.5,77 L54.2,82 M77,45.5 L82,54.2" />
+    <path android:fillColor="@color/ark_widget_clock_minute"
+        android:pathData="M120,215 m-3,0 a3,3 0,1 1,6 0 a3,3 0,1 1,-6 0" />
+</vector>
